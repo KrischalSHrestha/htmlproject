@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    background-color: aqua;
+}
+
+.img{
+    width: 50%;
+    height: 50%;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+#sidebar{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: aquamarine;
+    color: aquamarine;
+    overflow: hidden;
+    transition: 0.5s;
+    padding-top:60px;
+}
+
